@@ -29,6 +29,7 @@ int main()
     vector<Controller> vec = { c,c2,c3 };
     Manager m(vec,MANAGER_TRANSMITTER_GET_PORT, MANAGER_TRANSMITTER_SEND_PORT);
     while (true);
+    free(&vec);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

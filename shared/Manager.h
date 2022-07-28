@@ -95,6 +95,11 @@ Manager(vector<Controller> controllers,unsigned short get_port, unsigned short s
 	t.detach();
 }
 
+~Manager() {
+	free(&controllers);
+	free(&lst);
+}
+
 void Act(vector<Controller> controllers, unsigned short get_port, unsigned short send_port) {
 	UDPsocket send_socket;
 	UDPsocket get_socket;
