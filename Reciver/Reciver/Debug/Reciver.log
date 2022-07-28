@@ -1,4 +1,5 @@
-﻿  Reciver.cpp
-C:\Users\User1\Documents\לימודם יד\IAI\shared\Manager.h(22,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\User1\Documents\לימודם יד\IAI\shared\Manager.h(83,45): warning C4018: '<': signed/unsigned mismatch
-  Reciver.vcxproj -> C:\Users\User1\Documents\לימודם יד\IAI\Reciver\Debug\Reciver.exe
+﻿  pch.cpp
+  Reciver.cpp
+C:\Users\User1\Documents\IAI-CPP-project\shared\Manager.h(22,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User1\Documents\IAI-CPP-project\shared\Manager.h(83,45): warning C4018: '<': signed/unsigned mismatch
+  Reciver.vcxproj -> C:\Users\User1\Documents\IAI-CPP-project\Reciver\Debug\Reciver.exe

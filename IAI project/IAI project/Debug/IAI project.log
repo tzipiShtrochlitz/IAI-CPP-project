@@ -1,6 +1,7 @@
-﻿  Amplifier.cpp
+﻿  pch.cpp
+  Amplifier.cpp
   IAI project.cpp
-C:\Users\User1\Documents\לימודם יד\IAI\shared\Manager.h(22,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\User1\Documents\לימודם יד\IAI\shared\Manager.h(83,45): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User1\Documents\IAI-CPP-project\shared\Manager.h(22,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User1\Documents\IAI-CPP-project\shared\Manager.h(83,45): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
-  IAI project.vcxproj -> C:\Users\User1\Documents\לימודם יד\IAI\IAI project\Debug\Transmitter.exe
+  IAI project.vcxproj -> C:\Users\User1\Documents\IAI-CPP-project\IAI project\Debug\Transmitter.exe

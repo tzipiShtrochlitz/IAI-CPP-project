@@ -61,7 +61,7 @@ public:
         client.sin_port = htons(port);
         int status = sendto(my_socket, (char*)&message, sizeof(ControlMessage), 0, (sockaddr*)&client, sizeof(sockaddr_in));
         if (status == -1)
-            cout<<WSAGetLastError()<<endl;
+            cout<<"problem with send message, code: "<<WSAGetLastError() << endl;
         return( status!= SOCKET_ERROR);
 	}
 
